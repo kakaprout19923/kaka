@@ -2,20 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auth Bot Discord</title>
-    <script>
-        function redirectToDiscordAuth() {
-            const clientId = '1264849368532647948';
-            const scopes = 'bot';
-            const permissions = '8';
-            const redirectUri = encodeURIComponent('https://kakaprout19923.github.io/kaka/');
-            const discordAuthUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&scope=${scopes}&permissions=${permissions}&redirect_uri=${redirectUri}`;
-            window.location.href = discordAuthUrl;
-        }
-    </script>
+    <meta http-equiv="refresh" content="0; url=https://discord.com/oauth2/authorize?client_id=1264849368532647948&scope=identify email&response_type=code&redirect_uri=https://kakaprout19923.github.io/kaka/">
+    <title>Redirection Discord Auth</title>
 </head>
 <body>
-    <button onclick="redirectToDiscordAuth()">Auth Bot Discord</button>
+    <p>Vous allez être redirigé vers Discord pour l'authentification...</p>
 </body>
 </html>
